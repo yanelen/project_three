@@ -38,7 +38,7 @@ Requisites: an internet connection and a browser on a desktop, a tablet or a mob
 
 Google map API<br>
 Ruby on Rails<br>
-ActiveRecord<br>
+Active Record<br>
 PostgreSQL<br>
 JavaScript<br>
 Angular<br>
