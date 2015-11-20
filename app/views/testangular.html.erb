@@ -70,7 +70,7 @@
             </tr>
           </table>
     			<div ng-repeat = "comment in item.comments" ><span class="lender">{{comment.username}}</span><span class="comment">&nbsp;{{comment.comment}}</span><br>
-    			<div class="time">{{comment.created_at}}</div>
+    			<div class="time">{{comment.created_at | date: 'medium'}}</div>
           </div>
           <hr>
         </div>
@@ -99,7 +99,7 @@
             </tr>
           </table>
     			<div ng-repeat = "comment in item.comments" ><span class="borrower">{{comment.username}}</span><span class="comment">&nbsp;{{comment.comment}}</span><br>
-          <div class="time">{{comment.created_at}}</div>
+          <div class="time">{{comment.created_at | date: 'medium'}}</div>
           </div>
           <hr>
         </div>
